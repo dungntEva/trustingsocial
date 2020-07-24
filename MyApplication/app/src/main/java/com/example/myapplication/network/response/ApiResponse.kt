@@ -9,7 +9,7 @@ data class ApiResponse<T>(
     @Json(name = "status")
     val status: Boolean? = null,
 
-    @Json(name = "articles")
+    @Json(name = "1")
     val articles: T?  = null,
 
     @Json(name = "errorCode")

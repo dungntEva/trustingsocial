@@ -1,0 +1,11 @@
+{
+  "bank" : {
+    "logo" : "https://www.vietcombank.com.vn/images/logo30.png",
+    "name" : "Vietcombank"
+  },
+  "interest_rate" : 19.99,
+  "max_amount" : 10000000,
+  "max_tenor" : 18,
+  "min_amount" : 3000000,
+  "min_tenor" : 6
+}

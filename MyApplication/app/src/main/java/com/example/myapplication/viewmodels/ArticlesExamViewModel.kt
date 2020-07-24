@@ -2,7 +2,6 @@ package com.example.myapplication.viewmodels
 
 import androidx.lifecycle.MutableLiveData
 import com.example.myapplication.base.BaseViewModel
-import com.example.myapplication.data.models.Article
 import com.example.myapplication.data.models.Articles
 import com.example.myapplication.network.response.ApiRepository
 import com.example.myapplication.network.service.ApiClient

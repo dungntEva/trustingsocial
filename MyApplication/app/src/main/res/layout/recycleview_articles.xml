@@ -79,7 +79,7 @@
                         android:layout_height="wrap_content">
 
                         <ImageView
-                            app:image="@{articles.image}"
+                            app:image="@{articles.component6().component2()}"
                             android:layout_marginRight="6dp"
                             android:layout_marginTop="3dp"
                             android:id="@+id/imageViewLike"
@@ -93,7 +93,7 @@
                             android:textStyle="bold"
                             android:textColor="#ffffff"
                             android:id="@+id/textViewLikePercent"
-                            android:text="@{articles.title}"
+                            android:text="@{articles.component1()}"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"/>
 
@@ -103,7 +103,7 @@
                             android:layout_height="24dp"
                             android:layout_below="@id/textViewLikePercent"
                             android:layout_centerHorizontal="true"
-                            android:text="@{articles.detail}"
+                            android:text="@{articles.component2()}"
                             android:textColor="@android:color/white"
                             android:textSize="10sp" />
 

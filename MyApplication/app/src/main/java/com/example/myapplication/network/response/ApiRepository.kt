@@ -1,6 +1,5 @@
 package com.example.myapplication.network.response
 
-import com.example.myapplication.data.models.Article
 import com.example.myapplication.data.models.Articles
 import com.example.myapplication.network.service.ApiService
 

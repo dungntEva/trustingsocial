@@ -16,7 +16,7 @@ object ApiClient {
     private const val TIME_OUT = 300L // In second
     private const val CONTENT_TYPE = "Content-Type"
 
-    private fun getBaseUrl() = "https://moneyforwardvietnam.github.io"
+    private fun getBaseUrl() = "https://trustingsocial-b3a51.firebaseio.com"
 
     private fun getClient(url: String): Retrofit {
         val okHttpClient = OkHttpClient.Builder()
